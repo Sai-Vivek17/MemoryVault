@@ -1,0 +1,7 @@
+node_modules/
+*.log
+appendonly.aof
+coverage/
+*.tgz
+.env
+.DS_Store

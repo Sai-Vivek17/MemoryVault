@@ -1,0 +1,39 @@
+{
+  "name": "memoryvault",
+  "version": "1.0.0",
+  "description": "A durable in-memory key-value store with TTL support over raw TCP",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check store.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "server.js",
+    "store.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sai-Vivek17/MemoryVault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sai-Vivek17/MemoryVault/issues"
+  },
+  "homepage": "https://github.com/Sai-Vivek17/MemoryVault#readme",
+  "keywords": [
+    "database",
+    "key-value",
+    "tcp",
+    "ttl",
+    "write-ahead-log"
+  ],
+  "author": "Sai Vivek",
+  "license": "ISC"
+}
