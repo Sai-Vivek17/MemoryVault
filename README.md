@@ -137,6 +137,8 @@ TTL behavior across restarts, TCP fragmentation and pipelining, authentication,
 input validation, oversized commands, and connection shutdown. GitHub Actions
 runs it on Node.js 18, 20, and 22 on Linux and Windows.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change.
+
 ## Security
 
 The safe default is local-only access. If you bind to `0.0.0.0` or another
